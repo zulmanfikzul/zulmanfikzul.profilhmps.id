@@ -16,6 +16,7 @@ html {
   align-items: center;
 }
 .li-navbar {
+  border: 7px solid rgb(6, 17, 62);
   list-style-type: none;
   padding: 20px;
   margin: 5px;
@@ -65,4 +66,24 @@ html {
 }
 .h1-footer {
   font-size: 40px;
+}
+.container-kontak {
+  background-color: #e32222;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-content {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  width: 500px;
+  height: 500px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
 }
